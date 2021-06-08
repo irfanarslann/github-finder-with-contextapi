@@ -17,7 +17,7 @@ function App() {
               <UserList />
             </Route>
 
-            <Route path="/userdetail/:id">
+            <Route exact path="/userdetail/:id">
               <UserDetails />
             </Route>
             <Route path="*">
