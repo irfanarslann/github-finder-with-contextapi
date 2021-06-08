@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800;900&family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+* a {
+  text-decoration: none;
+  color: white;
+}
+
+body .navbar {
+  margin: auto;
+  padding: 15px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #d81b60;
+  color: #fff;
+}
+
+body .navbar h1 {
+  font-size: 39px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 30px;
+}
+
+body .navbar ul {
+  width: 25%;
+  font-size: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  line-height: 50%;
+}
+
+body .navbar ul li {
+  padding: 20px;
+}
+
+body .navbar ul li a {
+  color: white;
+}
+
+body .userlist-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+body .user-detail {
+  width: 70%;
+  margin: 35px auto;
+}
+
+body .user-detail button {
+  margin-bottom: 30px;
+}
+
+body .user-detail .sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .user-detail .sections .left {
+  height: 400px;
+  width: 400px;
+  margin-right: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+body .user-detail .sections .left img {
+  border-radius: 30px;
+  margin-top: 20px;
+  max-width: 300px;
+  margin-bottom: 23px;
+}
+
+body .user-detail .sections .left .badges span {
+  margin: 4px;
+  font-weight: 100;
+}
+
+body .user-detail .sections .right {
+  width: 60%;
+  padding: 30px;
+}
+
+body .user-detail .sections .right h1 {
+  font-weight: bolder;
+}
+
+body .user-detail .sections .right p {
+  margin-top: 30px;
+}
+/*# sourceMappingURL=index.css.map */
